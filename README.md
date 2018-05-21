@@ -1,13 +1,13 @@
 # Expresso
 
-## Implementation Details
+## MY Implementation Details
 
 I have decided to use promises and write the entire logic for Database Queries
 in migration.js.
 I have also made use of lodash for collection manipulation. 
 I've added a couple of other frameworks such as nodemon for live-reload.
 
-##Database Queries are generic functions
+## Database Queries are generic functions
 That is to say that Ive made all calls in migration js reusable. That way i use the same calls on both 
 employeesRouter.js and menuApiRouter.js. There are no connections is these files. 
  - I decided to render the client project with res.sendFile and static('public').
