@@ -13,6 +13,7 @@ employeesRouter.js and menuApiRouter.js. There are no connections is these files
  - I decided to render the client project with res.sendFile and static('public').
  - No need to go to the file location of index.html. node server will host the entire application.
  Both Backend and Frontend.  
+ - When the project starts, you will see sample data in employees and menu. This comes from seed.js
 
 
 
